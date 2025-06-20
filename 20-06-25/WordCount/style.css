@@ -1,0 +1,20 @@
+.textarea{
+    font-size: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20vh;
+}
+
+.numbers{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 2vh;
+}
+
+p{
+    font-size: 20px;
+}

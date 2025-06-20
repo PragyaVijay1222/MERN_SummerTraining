@@ -1,0 +1,27 @@
+.text{
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20vh;
+}
+
+.numbers{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 2vh;
+}
+
+.list{
+    border: 1cm bold black;
+    min-height: 20px;
+    max-width: 100px;
+
+}
+
+.things{
+    display: flex;
+}
