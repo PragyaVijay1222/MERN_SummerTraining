@@ -5,7 +5,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 app.use(cors());
-mongoose.connect('mongodb+srv://pragyavijay20318:liSykcBzBnyagA58@cluster0.g7t5xga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('your_mongoDB_token',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
