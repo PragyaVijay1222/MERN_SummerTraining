@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 const PORT = 8080;
 
-mongoose.connect('mongodb+srv://pragyavijay20318:c6X2mIfiOKUWcJki@cluster0.2qiforf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('your_mongoDB_token',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
